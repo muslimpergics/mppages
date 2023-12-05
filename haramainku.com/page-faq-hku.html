@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ HKU</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        body{margin-top:20px;}
+        .section_padding_100 {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .faq_area {
+            position: relative;
+            z-index: 1;
+            background-color: #f5f5ff;
+        }
+        
+        .accordion-button {
+            font-weight: 500;
+            background-color: rgb(235, 238, 243);
+        }
+
+        .faq-accordian {
+            position: relative;
+            z-index: 1;
+        }
+        .faq-accordian .card {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 1.5rem;
+        }
+        .faq-accordian .card:last-child {
+            margin-bottom: 0;
+        }
+        .faq-accordian .card .card-header {
+            background-color: #ffffff;
+            padding: 0;
+            border-bottom-color: #ebebeb;
+        }
+        .faq-accordian .card .card-header h6 {
+            cursor: pointer;
+            padding: 1.75rem 2rem;
+            color: #3f43fd;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -ms-grid-row-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+        .faq-accordian .card .card-header h6 span {
+            font-size: 1.5rem;
+        }
+        .faq-accordian .card .card-header h6.collapsed {
+            color: #070a57;
+        }
+        .faq-accordian .card .card-header h6.collapsed span {
+            -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+        }
+        .faq-accordian .card .card-body {
+            padding: 1.75rem 2rem;
+        }
+        .faq-accordian .card .card-body p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media only screen and (max-width: 575px) {
+            .support-button p {
+                font-size: 14px;
+            }
+        }
+
+        .support-button i {
+            color: #3f43fd;
+            font-size: 1.25rem;
+        }
+        @media only screen and (max-width: 575px) {
+            .support-button i {
+                font-size: 1rem;
+            }
+        }
+
+        .support-button a {
+            text-transform: capitalize;
+            color: #2ecc71;
+        }
+        @media only screen and (max-width: 575px) {
+            .support-button a {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="faq_area section_padding_100" id="faq">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-lg-6">
+                    <!-- Section Heading-->
+                    <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3><span>Frequently </span> Asked Questions (FAQ)</h3>
+                        <p>Pertanyaan yang sering ditanyakan mengenai Umroh dan Haji kepada HaramainKU.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- FAQ Area-->
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Berapa kali jatah makan jamaah selama diperjalanan dan di tanah suci?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Terkait jatah makan jamaah, setiap hari jamaah akan makan sebanyak kali pada bulan biasa dan 2 kali pada bulan Ramadhan.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Menu makanan apa yang disajikan untuk jamaah?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Untuk menu makanan sendiri, para jamaah tidak perlu khawatir, karna kami menyediakan menu makanan Indonesia.
+                                Namun memang disarankan untuk membawa beberapa lauk pelengkap dari tanah air untuk menambah selera makan.
+                                Karena dikhawatirkan menu masakan yang ada disana tidak sesuai dengan selera lidah jamaah.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Apakah jatah air zam-zam tersebut diberikan sebagai stok di tanah suci tau untuk dibawa ke tanah air? 
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Jatah air zam-zam tersebut adalah jatah yang akan dibawa puang ke tanah air.
+                                Air tersebut sudah disediakan dalam packaging agar jamaah lebih mudah membawanya.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Berapakah jumlah jatah  air zam-zam yang diberikan oleh pihak travel kepada jamaah?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Masing-masing jamaah diberikan jatah air zam-zam sebanyak 5 liter yang sudah dipackaging.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Apakah jamaah boleh melakukan penambahan jatah air zam-zam? 
+                            </button>
+                          </h2>
+                          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Jamaah tidak bisa menambah jatah air zam-zam yang telah dipersiapkna dalam packaging oleh travel.
+                              Namun jika jamaah ingin membawa air zam-zam lebih, maka jamaah dapat mengisi sendiri air zam-zam dari tempatnya menggunakan tempat yang jamaah persiapkan sendiri.
+                              Itupun dengan jumlah terbatas yang sekiranya muat untuk diletakkan didalam tas kabin.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              Apa Bisa Menukar/Mengganti Peserta Calon Jamaah Umroh?
+                            </button>
+                          </h2>
+                          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Boleh, dengan batas maksimal pergantian jamaah H-14.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                              Apa Calon Jamaah Bisa Merubah Jadwal/Pilihan Paket Umroh?
+                            </button>
+                          </h2>
+                          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Boleh, dengan catatan H-30, dibawah itu maka dikenakan biaya adm sebesar 2jt/jamaah.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                              Saya tinggal diluar kota, bagaimana saya mengambil perlengkapan haji atau umroh?
+                            </button>
+                          </h2>
+                          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Bisa, kami kirimkan menggunakan Jasa Ekspedisi Cargo.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                              Saya rencana ingin membawa anak, apakah ada Harga Khusus?
+                            </button>
+                          </h2>
+                          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Untuk anak usia 0 – 2 tahun Diskon 50% dari Harga Paket,<br/>
+                              Untuk Anak Usia 2 – 10 tahun Diskon :<br/>
+                              <ol>
+                                <li>Maskapai Saudia Airlines
+                                  <ol type="a">
+                                    <li>Tanpa Bed : 3.000.000 </li>
+                                    <li>Menggunakan bed : 1.500.000 </li>
+                                  </ol>
+                                </li>
+                                <li>Maskapai Selain Saudia
+                                  <ol type="a">
+                                    <li>Tanpa Bed : 2.000.000</li>
+                                  </ol>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                              Berapa jumlah uang saku yang perlu jamaah bawa?
+                            </button>
+                          </h2>
+                          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Tergantung dengan kebutuhan pribadi jamaah, kurang lebih 1 sd. 5jt sudah cukup.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                              Berapa stel baju yang perlu jamaah bawa?
+                            </button>
+                          </h2>
+                          <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Untuk program 9 hari bisa bawa 3-5 stel pakaian dan 12 hari 5-7 stel.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                              Bagaimana cara agar bisa ke raudhah?
+                            </button>
+                          </h2>
+                          <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Jamaah haramainku akan diberikan kesempatan untuk masuk raudhoh 1 kali selama di Madinah dengan tasreh kami yg mengatur.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                              Lebih baik tukar riyal di Indonesia atau di Saudi?
+                            </button>
+                          </h2>
+                          <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Dalam jumlah kecil jamaah bisa menukar di indonesia untuk persiapan,
+                              dan untuk jumlah besar bisa melakukan penukaran di saudi atau tarik tunai dengan atm di saudi.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                              Kapan Visa diberikan kepada Jammah?
+                            </button>
+                          </h2>
+                          <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Jamaah diberikan Visa dan Passport sesaat sebelum memasuki Imigrasi saat keberangkatan.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                              Konsumsi Jamaah darimana? Hotel atau Katering?
+                            </button>
+                          </h2>
+                          <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Konsumsi Jamaah Full board dari Hotel.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading16">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                              Berapa jarak dari hotel ke Masjid?
+                            </button>
+                          </h2>
+                          <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Berikut List Hotel yang biasa di gunakan
+                              <br><br>
+                                Hotel <i class="fa-solid fa-star"></i>3 Makkah
+                                <ul>
+                                  <li>Fajr Badie 2 (±500 meter)</li>
+                                  <li>Maather Al Eiman (±500 meter)</li>
+                                  <li>Snood Ajyad (±350 meter)</li>
+                                  <li>Maather Jiwar (±700 meter)</li>
+                                </ul>
+                                Hotel <i class="fa-solid fa-star"></i>3 Madinah
+                                <ul>
+                                  <li>>Jauharat Rasheed (±150 meter)</li>
+                                  <li>>Nada Azowar (±150 meter)</li>
+                                  <li>>Mirage Salam (±150 meter)</li>
+                                </ul>
+                              <hr>
+                                Hotel <i class="fa-solid fa-star"></i>4 Makkah
+                                <ul>
+                                  <li>>Rayyana Ajyad (±300 meter)</li>
+                                  <li>>Elaf Mashaer (±300 meter)</li>
+                                  <li>>Ajyad Makarim (±300 meter)</li>
+                                  <li>>Royal Majestic (±300 meter)</li>
+                                  <li>>Azka Al Safa (±250 meter)</li>
+                                </ul>
+                                Hotel <i class="fa-solid fa-star"></i>4 Madinah
+                                <ul>
+                                  <li>>Concorde Alkhair (±100 meter)</li>
+                                  <li>>Tabah Tower (±100 meter)</li>
+                                  <li>>Al Andalusia Palace 3 (±150 meter)</li>
+                                  <li>>Odest Al Madinah (±200 meter)</li>
+                                </ul>
+                              <hr>
+                                Hotel <i class="fa-solid fa-star"></i>5 Makkah
+                                <ul>
+                                  <li>>Dorrar Al Eiman (blok zamzam tower)</li>
+                                  <li>>Pullman Zamzam (Blok zamzam tower)</li>
+                                  <li>>Sofwah Orchid (Blok zamzam tower)</li>
+                                  <li>>Anjum (±200 meter)</li>
+                                </ul>
+                                Hotel <i class="fa-solid fa-star"></i>5 Madinah
+                                <ul>
+                                  <li>>Al Aqeeq Almadinah (±150 meter)</li>
+                                  <li>>Movenpick Almadinah (±50 meter)</li>
+                                  <li>>Taiba Front (±50 meter)</li>
+                                  <li>>Royal Inn Raudhah (±100 meter)</li>
+                                </ul>
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading17">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    <!-- Support Button-->
+                    <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <i class="lni-emoji-sad"></i>
+                        <p class="mb-0 px-2">Tidak menemukan jawaban?</p>
+                        <a class="btn btn-success btn-sm text-white" href="#"> <i class="fa-brands fa-whatsapp"></i> Hubungi CS kami</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</html>
